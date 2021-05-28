@@ -7,7 +7,7 @@ Trabajé solo sin compañeros en el grupo 10. Los compañeros que logré contact
 
 # El file que se llama Intento con clases
 
-Este file tiene lo que pude realizar para el código utilizando clases e intendo un código más complejo.
+Este file tiene lo que pude realizar para el código utilizando clases e intentando un código más complejo.
 Algunas inspiraciones de otras versiones de Frogger utilizando otros formatos me ayudaron a entender mejor algunas cosas, pero muchas no logré implementarlas en mi código ya que no me dio el tiempo de desifrarlas con graphics py.
 Disfrute mucho la experiencia de Python y es el lenguaje en el cual me gustaria quedarme siempre. Aun me falta tomar el curso de Data Structures, así que tendre que volver al C++, ni modo.
 Gracias Profesor, disfrute mucho sus clases y espero saludarlo en un futuro. Éxito!
