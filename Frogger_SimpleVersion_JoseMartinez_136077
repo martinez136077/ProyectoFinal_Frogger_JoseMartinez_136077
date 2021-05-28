@@ -1,0 +1,65 @@
+# I made this code alone and only with my knowledge without using any reference to do it.
+# The only thing I could not do is, find a way to move the green dot "Frog"🐸.
+# Group 10: José A. Martínez 
+# Estudiante num.: 136077 CECS3210-39
+
+from graphics import *
+
+
+def main():
+
+# Creates the window and the Frogger Map
+ win = GraphWin("Frogger by Jose A. Martinez",500,500)
+ win.setBackground('yellow')
+ pt = Point (250,250)
+ cir = Circle(pt, 100) #this act like a water hole
+ cir.setFill('blue')
+ cir.draw(win)
+
+
+# Start line
+ start = Rectangle(Point (0,500), Point (500,500))
+ start.setOutline('white') #this is the start line
+ start.setWidth(100)
+ start.draw(win)
+ 
+# Finish line
+ finish = Rectangle(Point (500,0), Point (0,0))
+ finish.setOutline('red')#finish line
+ finish.setWidth(100)
+ finish.draw(win)
+
+# Roads
+ rod = Line(Point (0,110), Point (500,110))
+ rod.setOutline('black')#Road
+ rod.setWidth(50)
+ rod.draw(win)
+
+ rod = Line(Point (0,210), Point (500,210))
+ rod.setOutline('black')#Road
+ rod.setWidth(50)
+ rod.draw(win)
+
+ rod = Line(Point (0,310), Point (500,310))
+ rod.setOutline('black')#Road
+ rod.setWidth(50)
+ rod.draw(win)
+
+ rod = Line(Point (0,410), Point (500,410))
+ rod.setOutline('black')#Road
+ rod.setWidth(50)
+ rod.draw(win)
+
+#Frog
+ pt = Point( 250,475 ) 
+ circ = Circle(pt,20)
+ circ.setFill ('green')
+ circ.draw(win)
+
+# This area is to move the Frog across the map 
+ for i in range(6):
+        
+        
+        p = win.getMouse()
+        print("Move the frog too the red stripe, you only get 6 attempt's", p.getX(), p.getY())
+main()
