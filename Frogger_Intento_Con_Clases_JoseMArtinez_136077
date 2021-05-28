@@ -1,0 +1,29 @@
+# Mi intento de Frogger con clases y un código mas profesional. No pude continuar más de esto. Gracias Profesor por su tiempo y por enseñarme Python.
+# Fue un exelente trimestre y aprendí mucho.
+# José A. Martínez
+# estudiante 136077
+# Grupo 10
+from graphics import *
+class CarL:
+
+def __init__(self, left, top):
+car__init__(self)
+self.image, self.rectangular = import_image('my1car.jpg', -1)
+self.rectangular.left = left
+self.rectangular.top = top
+  
+class CarR:
+
+def __init__(self, right, top):
+carR__init__(self)
+self.image, self.rectangular = import_image('my2car.jpg', -1)
+self.rectangular.right = right
+self.rectangular.top = top   
+
+class Frog:
+def __init__(self,frog,up,down):
+frog__init__(self)
+self.image, self.rectangular = import_image('myfrog.jpg', -1)
+self.rectangular.up = Up
+self.rectangular.down = Down
+
